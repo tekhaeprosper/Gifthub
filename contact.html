@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" placeholder="Your Email" required><br>
+            <textarea id="messageBox" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="feedback"></p>
+    </main>
+
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+
+    <script>
+        // Simple form feedback
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            document.getElementById("feedback").innerText = "Message sent successfully! ✅";
+        });
+    </script>
+</body>
+</html>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+</nav>

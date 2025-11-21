@@ -1,0 +1,68 @@
+nav {
+    background: #f0f8ff;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #0078d7;
+    color: rgb(109, 23, 23);
+    border: 1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3a9142;
+}
+
+nav {
+    background: #005a9e;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+background-color: antiquewhite;}
+
+.active {
+    text-decoration: underline;
+}
